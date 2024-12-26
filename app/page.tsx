@@ -10,6 +10,7 @@ import { useWallet } from '@solana/wallet-adapter-react';
 import { FC } from 'react';
 import useConnectWallet from '@/customhook/useConnectWallet';
 // import { useConnectWallet } from '@web3-onboard/react';
+// const connection = useConnection();
 
 const network = WalletAdapterNetwork.Mainnet; // Or Mainnet-beta
 const endpoint = clusterApiUrl(network);
