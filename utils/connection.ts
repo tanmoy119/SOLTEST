@@ -43,7 +43,7 @@ export const getConnection = () => {
 
   if (typeof window !== "undefined") {
     if (network === WalletAdapterNetwork.Mainnet) {
-      connection = new Connection("http://placeholder", {
+      connection = new Connection("https://placeholder", {
         fetch: (url, options) => {
           const parsedBody = options?.body
             ? JSON.parse(options.body as string)
